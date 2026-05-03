@@ -7,7 +7,7 @@ import streamlit as st
 #from dotenv import load_dotenv
 #load_dotenv()
 
-llm = init_chat_model(model="gemini-2.5-flash", model_provider="googlegenerativeai")
+llm = init_chat_model(model="gemini-2.5-flash", model_provider="google")
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful assistant."),
